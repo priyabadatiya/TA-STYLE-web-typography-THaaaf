@@ -1,0 +1,344 @@
+ /* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+ 
+ html,
+ body,
+ div,
+ span,
+ applet,
+ object,
+ iframe,
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6,
+ p,
+ blockquote,
+ pre,
+ a,
+ abbr,
+ acronym,
+ address,
+ big,
+ cite,
+ code,
+ del,
+ dfn,
+ em,
+ img,
+ ins,
+ kbd,
+ q,
+ s,
+ samp,
+ small,
+ strike,
+ strong,
+ sub,
+ sup,
+ tt,
+ var,
+ b,
+ u,
+ i,
+ center,
+ dl,
+ dt,
+ dd,
+ ol,
+ ul,
+ li,
+ fieldset,
+ form,
+ label,
+ legend,
+ table,
+ caption,
+ tbody,
+ tfoot,
+ thead,
+ tr,
+ th,
+ td,
+ article,
+ aside,
+ canvas,
+ details,
+ embed,
+ figure,
+ figcaption,
+ footer,
+ header,
+ hgroup,
+ menu,
+ nav,
+ output,
+ ruby,
+ section,
+ summary,
+ time,
+ mark,
+ audio,
+ video {
+     margin: 0;
+     padding: 0;
+     border: 0;
+     font-size: 100%;
+     font: inherit;
+     vertical-align: baseline;
+ }
+ /* HTML5 display-role reset for older browsers */
+ 
+ article,
+ aside,
+ details,
+ figcaption,
+ figure,
+ footer,
+ header,
+ hgroup,
+ menu,
+ nav,
+ section {
+     display: block;
+ }
+ 
+ body {
+     line-height: 1;
+ }
+ 
+ ol,
+ ul {
+     list-style: none;
+ }
+ 
+ blockquote,
+ q {
+     quotes: none;
+ }
+ 
+ blockquote:before,
+ blockquote:after,
+ q:before,
+ q:after {
+     content: '';
+     content: none;
+ }
+ 
+ table {
+     border-collapse: collapse;
+     border-spacing: 0;
+ }
+ /* ------------------------------------css reset ends here ------------------------------------*/
+ 
+ body {
+     font-size: 16px;
+     line-height: 1.5;
+     font-family: "karla", sans-serif;
+ }
+ 
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+     font-family: "DM Serif Display", serif;
+ }
+ 
+ *,
+ *::before,
+ *::after {
+     box-sizing: border-box;
+ }
+ 
+ .container {
+     max-width: 1300px;
+     margin: 0 auto;
+     padding: 0 32px;
+ }
+ 
+ a {
+     text-decoration: none;
+ }
+ 
+ .col-1-2 {
+     flex: 0 1 45%;
+ }
+ 
+ .flex {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+ /*------------------------------------------- header------------------------------------------- */
+ 
+ .header {
+     padding: 16px 0;
+     background: white;
+ }
+ 
+ .btn {
+     padding: 12px 18px;
+     color: grey;
+     border: 2px solid gray;
+     border-radius: 4px;
+     display: inline-block;
+     text-transform: uppercase;
+     font-size: 20px;
+     font-weight: 700;
+ }
+ 
+ .btn-sec {
+     border-color: white;
+     color: white;
+ }
+ 
+ .brand {
+     font-size: 36px;
+     font-family: "DM Serif Display", serif;
+     color: rgb(45, 38, 64);
+ }
+ 
+ .nav a {
+     font-size: 20px;
+     margin-left: 32px;
+     color: rgb(114, 111, 120);
+     text-transform: uppercase;
+     font-weight: 700;
+ }
+ 
+ .hero {
+     background: rgb(45, 38, 64);
+     padding: 60px 0;
+     color: honeydew;
+ }
+ 
+ .align-start {
+     align-items: flex-start;
+ }
+ 
+ .line {
+     width: 200px;
+     height: 2px;
+     background-color: rgb(152, 149, 158);
+ }
+ 
+ .hero-heading {
+     font-size: 55px;
+     margin: 15px;
+     line-height: 1.2;
+ }
+ 
+ .hero-text {
+     color: rgb(152, 149, 158);
+     margin: 35px 0;
+     font-size: 18px;
+ }
+ 
+ .hero-img {
+     width: 100%;
+     margin-bottom: -300px;
+ }
+ 
+ .padding {
+     padding: 90px 0;
+ }
+ 
+ .heading {
+     font-size: 50px;
+     color: rgb(45, 38, 64);
+ }
+ 
+ .about p {
+     font-size: 22px;
+     line-height: 1.5;
+     color: gray;
+     margin: 26px 0;
+ }
+ 
+ .img-100 {
+     width: 100%;
+ }
+ 
+ .feature header {
+     margin-bottom: 32px;
+ }
+ 
+ .feature h3 {
+     font-size: 32px;
+     color: rgb(45, 38, 64);
+     margin: 24px 0 12px 0;
+     text-transform: capitalize;
+ }
+ 
+ .col-1-3 {
+     flex: 0 1 30%;
+ }
+ 
+ .icons {
+     width: 50px;
+     height: 48px;
+     border-radius: 50%;
+     background-color: rgb(138, 180, 240);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: white;
+ }
+ 
+ .feature p {
+     color: gray;
+ }
+ 
+ .last .container {
+     background: rgb(45, 38, 64);
+     padding: 80px 60px;
+ }
+ 
+ .last {
+     color: white;
+ }
+ 
+ .last {
+     font-size: 45px;
+ }
+ 
+ .footer {
+     margin-top: 65px;
+ }
+ 
+ .footer .container {
+     padding: 0;
+ }
+ 
+ .icoon {
+     border-bottom: 1px solid gray;
+ }
+ 
+ .footer h2 {
+     font-size: 38px;
+ }
+ 
+ .footer a {
+     color: gray;
+     margin-left: 32px;
+     font-size: 25px;
+ }
+ 
+ .footer-nav {
+     text-align: center;
+     padding: 25px 0;
+ }
+ 
+ .small {
+     background-color: rgb(45, 38, 64);
+     text-align: center;
+     color: white;
+     font-size: 20px;
+     padding: 32px 0;
+ }
